@@ -1,6 +1,7 @@
 # Swapping-two-values
 ## AIM:
 To write a python program for swapping of two values
+
 ## EQUIPEMENT'S REQUIRED: 
 PC
 Anaconda - Python 3.7
@@ -18,7 +19,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+```
+x=input()
+y=input()
+temp=x
+x=y
+y=temp
+print("Swapped values are:",x,y)
+```
+## OUTPUT:
+![OUTPUT](./IMAGES/Screenshot%20from%202022-12-21%2015-17-47.png)
 
 
 ## RESULT:
